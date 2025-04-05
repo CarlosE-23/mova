@@ -75,6 +75,51 @@ ol {
   padding: 0;
 }
 
+.full-image .background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.full-image .background.background-1 {
+  background-image: url(../../images/image-1.jpg);
+}
+
+.full-image .background.background-2 {
+  background-image: url(../../images/image-2.jpg);
+}
+
+@media (max-width: 1200px) {
+  .full-image .background.background-1 {
+    background-image: url(../../images/image-1-1150px.jpg);
+  }
+
+  .full-image .background.background-2 {
+    background-image: url(../../images/image-2-1150px.jpg);
+  }
+}
+
+@media (max-width: 800px) {
+  .full-image .background.background-1 {
+    background-image: url(../../images/image-1-800px.jpg);
+  }
+
+  .full-image .background.background-2 {
+    background-image: url(../../images/image-2-800px.jpg);
+  }
+}
+
+@media (max-width: 450px) {
+  .full-image .background.background-1 {
+    background-image: url(../../images/image-1-responsive.jpg);
+  }
+
+  .full-image .background.background-2 {
+    background-image: url(../../images/image-2-responsive.png);
+  }
+}
+
 .full-image .video {
   width: 100%;
   object-fit: cover;
