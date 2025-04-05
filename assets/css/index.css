@@ -475,12 +475,6 @@
 #contact-us .info-container > div:nth-child(1) h2 {
   color: var(--primary-color);
   text-align: center;
-  margin-bottom: 1rem;
-}
-
-#contact-us .info-container > div:nth-child(1) p {
-  color: var(--primary-color);
-  text-align: center;
 }
 
 #contact-us .info-content {
@@ -625,7 +619,7 @@
   aspect-ratio: 1/1;
   width: 2.5rem;
   height: 2.5rem;
-  background-color: var(--quintary-color);
+  background-color: var(--blue-light);
   border-radius: 50%;
 }
 
